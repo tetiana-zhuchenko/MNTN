@@ -42,6 +42,10 @@ body {
     padding-top: 64px;
 }
 
+.nav-wrapper {
+    margin-bottom: 198px;
+}
+
 .logo {
     font-family: 'Playfair Display', serif;
     font-weight: 700px;
@@ -51,6 +55,7 @@ body {
 
 .nav {
     font-weight: 700;
+    font-size: 18px;
 }
 
 .nav ul {
@@ -67,5 +72,74 @@ body {
 .nav a {
     color: white;
     text-decoration: none;
-   
+    transition: color 0.2s ease-in;
+}
+
+.nav a:hover {
+    color: #FBD784;
+}
+
+.account {
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease-in;
+}
+
+.account:hover {
+    color: #FBD784;
+}
+
+/*HERO*/
+
+.hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    
+}
+
+.hero-category {
+    margin-bottom: 32px;
+    position: relative;
+    padding-left: 104px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.222;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+
+.hero-category::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    content: " ";
+    width: 72px;
+    height: 2px;
+    background-color: #FBD784;
+}
+
+.hero-title {
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+
+}
+
+.hero-scroll {
+
 }
