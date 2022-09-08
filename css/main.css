@@ -164,8 +164,59 @@ body {
     width: 16px;
     height: 24px;
     background-image: url('./../img/icons/arrow-down.svg');
-
-
-
-
 }
+
+
+
+/*MAIN*/
+
+.container {
+    max-width: 1492px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* ARTICLE*/
+
+.article {
+    display: flex;
+    justify-content: space-between;
+ }
+
+.article-text {
+    padding-left: 150px;
+    
+}
+.article-subtitle {
+    margin-bottom: 32px;
+    position: relative;
+    padding-left: 96px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.222;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+
+.article-subtitle::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    content: " ";
+    width: 72px;
+    height: 2px;
+    background-color: #FBD784;
+}
+
+
+
+
+.articte-title {}
+.article-read-more {}
+.article-img {}
