@@ -40,6 +40,7 @@ body {
 
 .header {
     padding-top: 64px;
+    margin-bottom: 843px;
 }
 
 .nav-wrapper {
@@ -101,7 +102,11 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     text-decoration: none;
-    
+    transition: transform 0.5s cubic-bezier(.47,.01,.06,1.69);
+}
+
+.hero:hover {
+    transform: translateY(-5%) ;
 }
 
 .hero-category {
@@ -140,6 +145,7 @@ body {
 }
 
 .hero-scroll {
+    display: inline-block;
     position: relative;
     padding-right: 32px;
     font-weight: 700;
@@ -148,12 +154,15 @@ body {
     color: #FFFFFF;
 }
 
-. hero-scroll::after {
+.hero-scroll::after {
     display: block;
     content: "";
     position: absolute;
     right: 0;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 24px;
     background-image: url('./../img/icons/arrow-down.svg');
 
 
