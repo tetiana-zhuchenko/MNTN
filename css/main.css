@@ -19,6 +19,10 @@ body {
 
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
 /* BASE */
 .container-wide {
     max-width: 1790px;
@@ -313,6 +317,7 @@ body {
     font-size: 18px;
     line-height: 1.222;
     color: #FBD784;
+    text-decoration: none;
 }
 
 .article-read-more::after {
