@@ -143,6 +143,38 @@ h1, h2, h3, h4, h5, h6, p {
     background-size: contain;
 }
 
+.nav-button {
+    position: relative;
+    width: 42px;
+    height: 5px;
+    border: none;
+    background-color: #FFFFFF;
+    
+}
+
+.nav-button::before {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    content: "";
+    display: block;
+    width: 42px;
+    height: 5px;
+    background-color: #FFFFFF;
+}
+
+.nav-button::after {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    content: "";
+    display: block;
+    width: 42px;
+    height: 5px;
+    background-color: #FFFFFF;
+}
+
+
 /*HERO*/
 
 .hero {
