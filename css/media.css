@@ -11,4 +11,7 @@
         display: none;
     }
     
+    .nav-button {
+        display: block;
+    }
  }
