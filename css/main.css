@@ -154,6 +154,12 @@ h1, h2, h3, h4, h5, h6, p {
     background: none;
 }
 
+.nav-button:focus, 
+.nav-button:active {
+    outline: none;
+}
+
+
 .nav-button-icon {
     position: relative;
     display: block;
@@ -184,6 +190,10 @@ h1, h2, h3, h4, h5, h6, p {
     width: 42px;
     height: 5px;
     background-color: #FFFFFF;
+}
+
+.nav-button-close .nav-button-icon {
+    background-color: transparent;
 }
 
 .mobile-nav {
