@@ -196,6 +196,16 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: transparent;
 }
 
+.nav-button-close .nav-button-icon::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.nav-button-close .nav-button-icon::after {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
 .mobile-nav {
     position: fixed;
     top: 0;
