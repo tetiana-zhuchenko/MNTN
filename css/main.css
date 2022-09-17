@@ -143,6 +143,8 @@ h1, h2, h3, h4, h5, h6, p {
     background-size: contain;
 }
 
+
+
 .nav-button {
     position: relative;
     z-index: 9;
@@ -154,12 +156,6 @@ h1, h2, h3, h4, h5, h6, p {
     background: none;
 }
 
-.nav-button:focus, 
-.nav-button:active {
-    outline: none;
-}
-
-
 .nav-button-icon {
     position: relative;
     display: block;
@@ -168,6 +164,33 @@ h1, h2, h3, h4, h5, h6, p {
     border: none;
     background-color: #FFFFFF;
     
+}
+
+.nav-button-icon::before {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    content: "";
+    display: block;
+    width: 42px;
+    height: 5px;
+    background-color: #FFFFFF;
+}
+
+.nav-button-icon::after {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    content: "";
+    display: block;
+    width: 42px;
+    height: 5px;
+    background-color: #FFFFFF;
+}
+
+.nav-button:focus, 
+.nav-button:active {
+    outline: none;
 }
 
 .nav-button-icon::before {
@@ -211,6 +234,7 @@ h1, h2, h3, h4, h5, h6, p {
     top: 0;
     right: 0;
     display: none;
+
     /*display: flex;*/
     flex-direction: column;
     justify-content: space-between;
