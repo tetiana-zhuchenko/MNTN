@@ -119,7 +119,7 @@ img {
 .nav a:hover::after {
     bottom: -5px;
     opacity: 1;
- }
+}
 
 .account {
     position: relative;
@@ -380,9 +380,6 @@ img {
     font-size: 240px;
     line-height: 1;
     color: rgba(255, 255, 255, 0.1);
-    
-
-
 }
     
 .article-subtitle {
@@ -465,11 +462,17 @@ img {
     padding: 120px;
 }
 
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer-copyright{
     display: flex;
     flex-direction: column;
 
 }
+
 .footer-copyright-logo{
     margin-bottom: 24px;
 }
@@ -547,9 +550,9 @@ img {
     background-color: #FFFFFF;
     opacity: 0;
     transition: all 0.2s ease-in;
- }
+}
 
 .footer-nav a:hover::after {
     bottom: -5px;
     opacity: 1;
- }
+}
