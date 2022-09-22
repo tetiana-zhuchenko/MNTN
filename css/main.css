@@ -29,6 +29,11 @@ img {
 }
 
 /* BASE */
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
 .container-wide {
     max-width: 1790px;
     margin: 0 auto;
@@ -236,6 +241,7 @@ img {
 
 .mobile-nav {
     position: fixed;
+    z-index: 8;
     top: 0;
     right: 0;
     display: none;
